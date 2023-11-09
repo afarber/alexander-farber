@@ -1,0 +1,128 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Alexander Farber, Bochum</title>
+<style type="text/css">
+        h2,p { 
+		text-align: center; 
+	}
+
+        img {
+		vertical-align: middle; 
+		padding: 8px 8px 8px 8px;
+	}
+
+	#map { 
+		width: 640px; 
+		height: 430px; 
+		margin-left: auto; 
+		margin-right: auto; 
+		background-color: #CCCCFF; 
+		border: 1px solid #FFCCCC;
+	}
+
+	a {
+		background-color: #E0EAF1;
+		border-bottom: 1px solid #3E6D8E;
+		border-right: 1px solid #7F9FB6;
+		padding: 3px 4px 3px 4px;
+		margin: 2px 2px 2px 0;
+		text-decoration: none;
+		line-height: 2.4;
+		white-space: nowrap;
+	}
+</style>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript">
+$(function() {
+	findCity('Bochum');
+
+});
+
+function createMap(center) {
+	var opts = {
+		zoom: 5,
+		center: center,
+		mapTypeId: google.maps.MapTypeId.ROADMAP
+	};
+	return new google.maps.Map(document.getElementById("map"), opts);
+}
+
+function findCity(city) {
+	var gc = new google.maps.Geocoder();
+	gc.geocode( { "address": city}, function(results, status) {
+		if (status == google.maps.GeocoderStatus.OK) {
+			var pos = results[0].geometry.location;
+			var map = createMap(pos);
+			var marker = new google.maps.Marker({
+				map: map, 
+				//animation: google.maps.Animation.BOUNCE,
+				title: city,
+				position: pos
+			});
+		}
+	});
+}
+
+</script>
+</head>
+<body>
+<p><img src="images/farber.jpg" width="700" height="512" alt="Foto"></p>
+
+<h2>Dipl.-Ing. Alexander Farber</h2>
+
+<p><img src="images/pdf.png" width="90" height="90" alt="Pdf"><a href="Farber-English.pdf">Resume&nbsp;<img src="images/english.gif" width="14" height="12"></a>&nbsp;<a href="Farber-Deutsch.pdf">Lebenslauf<img src="images/german.gif" width="14" height="12"></a></p>
+
+<p><img src="images/linkedin.png" width="90" height="90" alt="LinkedIn"><a href="https://www.linkedin.com/pub/alexander-farber/9/795/711">LinkedIn profile</a></p>
+
+<p><img src="images/xing.png" width="90" height="90" alt="Xing"><a href="https://www.xing.com/profile/Alexander_Farber">Xing profile</a></p>
+
+<p><img src="images/facebook.png" width="90" height="90" alt="Facebook"><a href="http://www.facebook.com/farber72">Facebook profile</a></p>
+
+<h2>References / Referenzen</h2>
+
+<p><img src="images/pdf.png" width="90" height="90" alt="Pdf"><a href="Farber-Blackberry.pdf">Blackberry reference</a></p>
+
+<p><img src="images/pdf.png" width="90" height="90" alt="Pdf"><a href="Farber-novero-Fulltime.pdf">novero reference</a></p>
+
+<p><img src="images/pdf.png" width="90" height="90" alt="Pdf"><a href="Farber-Nokia-Fulltime.pdf">Nokia reference</a></p>
+
+<p><img src="images/pdf.png" width="90" height="90" alt="Pdf"><a href="Farber-Ericsson-Fulltime.pdf">Ericsson reference fulltime</a></p>
+
+<p><img src="images/pdf.png" width="90" height="90" alt="Pdf"></td><a href="Farber-Ericsson-Parttime.pdf">Ericsson reference student</a></p>
+
+<h2>Certificates / Zeugnisse</h2>
+
+<p><img src="images/pdf.png" width="90" height="90" alt="Pdf"><a href="Farber-Qt-Training.pdf">Qt programming training</a></p>
+
+<p><img src="images/pdf.png" width="90" height="90" alt="Pdf"><a href="Farber-Nokia-Training.pdf">Nokia training overview</a></p>
+
+<p><img src="images/pdf.png" width="90" height="90" alt="Pdf"><a href="Farber-Symbian-Training.pdf">C++ for Symbian training</a></p>
+
+<p><img src="images/pdf.png" width="90" height="90" alt="Pdf"><a href="Farber-HPUX-Training.pdf">HPUX sysadmin training</a></p>
+
+<p><img src="images/pdf.png" width="90" height="90" alt="Pdf"><a href="Farber-Synergy-Training.pdf">CM Synergy admin training</a></p>
+
+<p><img src="images/pdf.png" width="90" height="90" alt="Pdf"><a href="Farber-RWTH-Diplom.pdf">Diplom RWTH Aachen</a></p>
+
+<p><img src="thesis/vecs-scal.gif" width="90" height="90" alt="3D"><a href="thesis">Diplom Screenshots</a></p>
+
+<p><img src="images/pdf.png" width="90" height="90" alt="Pdf"><a href="Farber-Abitur.pdf">Abitur Studienkolleg</a></p>
+
+<p><img src="images/pdf.png" width="90" height="90" alt="Pdf"><a href="Farber-PhysTech-Fernschule.pdf">PhysTech Fernschule</a></p>
+
+<p><img src="images/pdf.png" width="90" height="90" alt="Pdf"><a href="Farber-Physik-Olympiade.pdf">Physik-Olympiade 1. Platz</a></p>
+
+<h2>Fun projects / Projekte</h2>
+
+<p><img src="images/github.png" width="90" height="90" alt="Github"><a href="https://github.com/afarber/mod-socket-policy">Apache module mod_socket_policy</a></p>
+
+<p><img src="images/pref.png" width="90" height="70" alt="Preferans"><a href="https://facebook.com/appcenter/video-preferans">Card game for Facebook, Google+ and others</a></p>
+
+<h2>Bochum, Germany / Deutschland</h2>
+
+<p id="map"></p>
+
+</body>
+</html>
