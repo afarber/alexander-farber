@@ -9,6 +9,7 @@ Dipl.-Ing. Alexander Farber
 References / Referenzen
 ==========
 
+- [Volkswagen Infotainment reference](https://afarber.de/Farber-Volkswagen-Infotainment.pdf)
 - [Blackberry reference](https://afarber.de/Farber-Blackberry.pdf)
 - [novero reference](https://afarber.de/Farber-novero-Fulltime.pdf)
 - [Nokia reference](https://afarber.de/Farber-Nokia-Fulltime.pdf)
