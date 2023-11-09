@@ -18,12 +18,6 @@ References / Referenzen
 Certificates / Zeugnisse
 ==========
 
-- [Vector CANoe training](https://afarber.de/Farber-CANoe-Training.pdf)
-- [Qt programming training](https://afarber.de/Farber-Qt-Training.pdf)
-- [Nokia training overview](https://afarber.de/Farber-Nokia-Training.pdf)
-- [C++ for Symbian training](https://afarber.de/Farber-Symbian-Training.pdf)
-- [HPUX sysadmin training](https://afarber.de/Farber-HPUX-Training.pdf)
-- [CM Synergy admin training](https://afarber.de/Farber-Synergy-Training.pdf)
 - [Diplom RWTH Aachen](https://afarber.de/Farber-RWTH-Diplom.pdf)
 - [Diplom screenshots](https://github.com/afarber/alexander-farber/tree/master/thesis)
 - [Abitur Studienkolleg](https://afarber.de/Farber-Abitur.pdf)
