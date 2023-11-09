@@ -25,9 +25,16 @@ Certificates / Zeugnisse
 - [HPUX sysadmin training](https://afarber.de/Farber-HPUX-Training.pdf)
 - [CM Synergy admin training](https://afarber.de/Farber-Synergy-Training.pdf)
 - [Diplom RWTH Aachen](https://afarber.de/Farber-RWTH-Diplom.pdf)
+- [Diplom screenshots](https://github.com/afarber/alexander-farber/tree/master/thesis)
 - [Abitur Studienkolleg](https://afarber.de/Farber-Abitur.pdf)
 - [PhysTech Fernschule](https://afarber.de/Farber-PhysTech-Fernschule.pdf)
 - [Physik-Olympiade 1. Platz](https://afarber.de/Farber-Physik-Olympiade.pdf)
+
+Fun projects / Projekte
+==========
+
+- [Word game for Android, desktop](https://wordsbyfarber.com)
+- [Card game for Android, iOS, desktop - no longer maintained](https://preferans.de)
 
 Bochum / Germany
 ==========
