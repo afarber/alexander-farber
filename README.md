@@ -29,6 +29,7 @@ Certificates / Zeugnisse
 - [PhysTech Fernschule](https://afarber.de/Farber-PhysTech-Fernschule.pdf)
 - [Physik-Olympiade 1. Platz](https://afarber.de/Farber-Physik-Olympiade.pdf)
 
-![foto](https://raw.github.com/afarber/alexander-farber/master/images/farber.jpg)
+Bochum / Germany
+==========
 
-Bochum, Germany
+![foto](https://raw.github.com/afarber/alexander-farber/master/images/farber.jpg)
