@@ -35,6 +35,8 @@ Fun projects / Projekte
 
 - [Multiplayer word game for Android, desktop](https://wordsbyfarber.com)
 - [Multiplayer card game for Android, iOS, desktop - no longer maintained](https://preferans.de)
+- [My Github repos](https://github.com/afarber)
+- [My Stackoverflow profile](https://stackoverflow.com/users/165071/alexander-farber)
 
 Bochum / Germany
 ==========
