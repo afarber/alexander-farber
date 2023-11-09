@@ -33,8 +33,8 @@ Certificates / Zeugnisse
 Fun projects / Projekte
 ==========
 
-- [Word game for Android, desktop](https://wordsbyfarber.com)
-- [Card game for Android, iOS, desktop - no longer maintained](https://preferans.de)
+- [Multiplayer word game for Android, desktop](https://wordsbyfarber.com)
+- [Multiplayer card game for Android, iOS, desktop - no longer maintained](https://preferans.de)
 
 Bochum / Germany
 ==========
