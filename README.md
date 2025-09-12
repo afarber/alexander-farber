@@ -25,6 +25,14 @@ Certificates / Zeugnisse
 - [PhysTech Fernschule](https://afarber.de/Farber-PhysTech-Fernschule.pdf)
 - [Physik-Olympiade 1. Platz](https://afarber.de/Farber-Physik-Olympiade.pdf)
 
+Open Source contributions
+==========
+
+- [OSRM backend](https://github.com/Project-OSRM/osrm-backend/pulls?q=is%3Apr+is%3Aclosed+author%3Aafarber)
+- [Jetty](https://github.com/jetty/jetty.project/pulls?q=is%3Apr+is%3Aclosed+author%3Aafarber)
+- [PixiJS UI](https://github.com/pixijs/ui/pulls?q=is%3Apr+is%3Aclosed+author%3Aafarber)
+- [OpenBSD](https://github.com/search?q=repo%3Aopenbsd%2Fsrc+farber&type=commits)
+
 Fun projects / Projekte
 ==========
 
@@ -37,3 +45,4 @@ Bochum / Germany
 ==========
 
 ![foto](https://raw.github.com/afarber/alexander-farber/master/images/farber.jpg)
+
